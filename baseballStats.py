@@ -57,6 +57,6 @@ for i in range(5):
    # except:
         #print("NO")
 
-
-r = requests.post('https://maker.ifttt.com/trigger/jack/with/key/lmRrnJJWM7oHvMkAuqiYQSFUzA9vGGXET77e6igrvy4', json={"value1": final_arr})
+# I used IFTTT to get a link to request an sms text
+r = requests.post('YOUR URL', json={"value1": final_arr})
 driver.quit()
